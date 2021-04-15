@@ -1,0 +1,259 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+
+* {
+  box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #393839;
+  }
+  h4{
+    padding-bottom: -5px;
+    color: #F4BD72;
+  }
+  
+  li {
+    border-right:1px solid rgb(255, 255, 255);
+    display: inline-block;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #F4BD72;
+  }
+  
+  .active {
+    background-color: #F4BD72;
+  }
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+  }
+  .column2 {
+    margin-left: 100px;
+    float: left;
+    padding: 10px;
+  }
+  .column3 {
+    padding: 10px;
+    display: inline-block;
+    width: 500px;
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+.img-fluid{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+body{
+    background-image: url("../img/backgroundDesign.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /**************************************/
+  @media (min-width: 700px) {
+    .wrapper {
+      overflow: hidden;
+    }
+    .wrapper > * {
+      float: left;
+      padding: 2em 2em;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .contacts {
+      width: 30%;
+      min-height: 620px;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .form {
+      width: 100%;
+    }
+  }
+  form p {
+    float: left;
+    width: 49%;
+  }
+  /* form p {
+    float: left;
+    width: 49%;
+  } */
+  form p:not(:nth-child(2n)) {
+    margin-right: 2%;
+  }
+  form p:last-child {
+    clear: both;
+    width: 100%;
+  }
+  form p:nth-last-child(2) {
+    clear: both;
+    width: 100%;
+  }
+  
+  /**************************************/
+  body {
+    padding: 1rem;
+  }
+  
+  .wrapper {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .wrapper > * {
+    padding: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts {
+    /* background: #4b5195;
+    color: #fff; */
+
+    /* background: #F4BD72;
+    color: #393839;*/
+
+     color: #F4BD72;
+    background: #393839; 
+
+  }
+  
+  .form {
+    color: #F4BD72;
+    background: #393839;   }
+    
+    input{color: black;}
+  
+  form label {
+    display: block;
+  }
+  
+  button,
+  input,
+  textarea {
+    padding: 1em;
+  }
+  
+  button {
+    background: #393839;
+    width: 100%;
+    border: 0;
+  }
+  button:hover, button:focus {
+    background: #131313;
+    outline: 0;
+  }
+  
+  .contain {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  @media (min-width: 600px) {
+    .contain {
+      padding: 0;
+    }
+  }
+  
+  h3,
+  ul {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-bottom: 1rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: 3px solid gold;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    border: 1px solid #000;
+  }
+ 
+/* form{
+    padding: 10%;
+    padding-left: 40px;
+    position: relative;
+    color: gray;
+    background-color: bisque;
+    border-radius: 25px;
+
+}
+input{  border-radius: 5px;
+}
+h1{
+    padding-left: 30px;
+    color: gray;
+}
+#text{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 3.5em;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#radio{
+    margin-bottom: 20px;
+}
+
+#student{
+    padding: 50px;
+}
+#wrapper {
+    width: 700px;
+    border: 1px ;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 2%;
+    box-shadow: 5px 10px 20px 20px rgba(0, 0, 0, 0.541);
+    overflow: hidden; /* will contain if #first is longer than #second 
+}
+
+#first {
+    width: 300px;
+    float:left; /* add this *
+}
+#second {
+    overflow: hidden; /* if you don't want #second to wrap below #first 
+}
+#first img{
+    max-width: 100%;
+    height: 600px;
+} */

@@ -1,0 +1,23 @@
+Feb 15 - Nathan Vieira
+
+Created user story
+Created form tasks for story
+Added tasks to sprint
+Created repo
+Built rough copy of form
+Concept design 
+
+Feb 17 - Nathan Vieira
+Completed rough copy form
+Pushed to repo
+
+Feb 24 - Nathan Vieira
+fields regex created for rough work
+db created with test fields
+insertion of records working properly
+extra regex / field formatting complete
+
+March 16 - Nathan Vieira
+php integration
+correct error messaging based on records existing working 
+administrator login privileges to delete records working

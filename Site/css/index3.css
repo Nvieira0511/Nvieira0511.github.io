@@ -1,0 +1,104 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+h1, h4, h3, td, th{
+  color: #F4BD72;
+}
+h1{
+  padding-top: 5px;
+}
+button,
+  input,
+  textarea {
+    padding: 3px;
+  }
+  td{
+    padding-bottom: .5em;
+    padding-right: .5em;
+  }
+  th{
+    text-align: center;
+  }
+  
+  button {
+    background: #393839;
+    width: 100%;
+    border: 0;
+  }
+  button:hover, button:focus {
+    background: #131313;
+    outline: 0;
+  }
+  body{
+    background-image: url("../img/backgroundDesign.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #393839;
+}
+li {
+  border-right:1px solid rgb(255, 255, 255);
+  display: inline-block;
+}
+li:last-child {
+  border-right: none;
+} 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #F4BD72;
+}
+#rowOne, #rowTwo, #rowThree{
+  padding-left: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #393839;
+}
+.active {
+  background-color: #F4BD72;
+}
+.img-fluid{
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+option{
+  background: #393839;
+  color: #F4BD72;
+  border: 0;
+}
+select, input{
+  background: #393839;
+  color: #F4BD72;
+}
+input:hover, input:focus {
+  background: #131313;
+  outline: 0;
+}
+label{
+  color: #F4BD72;
+}
+form h3{
+  padding-top: 1em;
+}
+.btn{
+  color: white;
+}
+.form-container{
+  width: 5%;
+  float: left;
+  margin: 0px;
+}
+table{
+  background: #393839;
+}
